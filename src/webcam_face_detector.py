@@ -2,19 +2,39 @@ import numpy as np
 import cv2 as cv
 
 def main():
-    face_classifier = cv.CascadeClassifier('../data/haarcascade_frontalface_default.xml')
+    face_classifier = cv.CascadeClassifier('../data/haarcascade_frontalface_default2.xml')
     capture = cv.VideoCapture(0)
+    s_img = cv.imread("hulk.png")
+    # s_img = cv.cvtColor(s_img, cv.COLOR_BGR2BGRA)
+    
+    # alpha = s_img[:,:,3]
+    # cv.imwrite("filterAlpha.png", alpha)
+
+
+
 
     while True:
         ret, frame = capture.read()
 
         gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
-        faces = face_classifier.detectMultiScale(
-                gray, scaleFactor=1.3, minNeighbors=4, minSize=(30, 30),
-                flags=cv.CASCADE_SCALE_IMAGE)
+        faces = face_classifier.detectMultiScale(gray,
+        scaleFactor=1.1,
+        minNeighbors=5,
+        minSize=(30, 30),
+        flags=cv.CASCADE_SCALE_IMAGE)
 
         for (x, y, w, h) in faces:
-            cv.rectangle(frame, (x, y), (x+w, x+h), (0,255,0), 2)
+            cv.rectangle(frame, (x, y), (x+w, y+h), (0,255,0), 2)
+            # frame = cv.cvtColor(frame, cv.COLOR_BGR2BGRA)
+            resizedFilter = cv.resize(s_img, (w,h), fx=0.5, fy=0.5)
+            frame[y:y+resizedFilter.shape[0], x:x+resizedFilter.shape[1]] = resizedFilter
+
+            # w2,h2,c2 = resizedFilter.shape
+            # for i in range(0,w2):
+            #     for j in range(0,h2):
+            #         if resizedFilter[i,j][3] != 0:
+                        
+            #             frame[y+i, x+j] = resizedFilter[i,j]
 
         cv.imshow('Video', frame)
 
