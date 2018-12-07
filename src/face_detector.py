@@ -5,7 +5,6 @@ import cv2 as cv
 
 def main():
     image_name = '../data/she.jpg'
-
     face_cascade = cv.CascadeClassifier('../data/haarcascade_frontalface_default.xml')
     img = cv.imread(image_name)
     gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
