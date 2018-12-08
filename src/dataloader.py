@@ -1,27 +1,63 @@
 import csv
+import numpy as np
 from torch.utils.data import Dataset
+import torch
+import torchvision.transforms as transforms
 
 
-class FacialExpressionDataLoader(Dataset):
-    def __init__(self, data_file, transform=None):
+class csvDataset(torch.utils.data.Dataset):
+    def __init__(self, data_file, data_type, transform=None):
         with open(data_file) as f:
             csv_reader = csv.reader(f, delimiter=',')
-            index = 0
-
-            self.train = []
-            self.val = []
-            self.test = []
+            self.data = []
 
             for row in csv_reader:
-                if row[-1] == "Training":
-                    self.train.append([row[0], row[1]])
-                elif row[-1] == "PublicTest":
-                    self.val.append([row[0], row[1]])
-                elif row[-1] == "PrivateTest":
-                    self.test.append([row[0], row[1]])
+                if row[-1] == data_type:
+                    pixel = np.asarray(list(map(int, row[1].split()))).reshape(48, 48, -1)
+                    self.data.append([int(row[0]), pixel])
+
+            self.transform = transform
 
     def __len__(self):
-        return len(self.train)
+        return len(self.data)
 
     def __getitem__(self, idx):
-        return {'label': self.train[idx][0], 'image': self.train[idx][1]}
+        label = [self.data[idx][0]]
+        pixels = self.data[idx][1]
+        if self.transform is not None:
+            pixels = self.transform(np.uint8(pixels))
+        sample = (pixels, torch.LongTensor(label))
+        return sample
+
+
+class FacialExpressionDataLoader(object):
+    def __init__(self, data_file):
+
+        train_transform = transforms.Compose(
+            [
+                transforms.ToPILImage(),
+                transforms.RandomHorizontalFlip(),
+                transforms.RandomRotation(45),
+                transforms.ToTensor(),
+                transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))
+            ])
+
+        test_transform = transforms.Compose([
+            transforms.ToPILImage(),
+            transforms.ToTensor(),
+            transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)),
+        ])
+
+        self.train_loader = csvDataset(data_file, "Training", transform=train_transform)
+        self.val_loader = csvDataset(data_file, "PublicTest", transform=test_transform)
+        self.test_loader = csvDataset(data_file, "PrivateTest", transform=test_transform)
+
+        print('training data: ', len(self.train_loader))
+        print('validation data: ', len(self.val_loader))
+        print('testing data: ', len(self.test_loader))
+
+        self.classes = ('Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral')
+
+        print('All data loaded')
+
+
