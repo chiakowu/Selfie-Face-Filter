@@ -1,0 +1,1808 @@
+/Users/chiakowu/tensorflow/bin/python /Users/chiakowu/cse455/Selfie-Face-Filter/src/main.py
+training data:  16175
+validation data:  1969
+testing data:  1996
+All data loaded
+epochs:  200  batch_size:  64  learning_rate:  0.01  momentum:  0.9  weight_decay:  0.0005
+[1,    50] loss: 1.072
+[1,   100] loss: 1.072
+[1,   150] loss: 1.064
+[1,   200] loss: 1.072
+[1,   250] loss: 1.064
+Final Summary:   loss: 1.073
+Train Accuracy of the network: 44 %
+Val Accuracy of the network: 45 %
+Test Accuracy of the network: 44 %
+[2,    50] loss: 1.071
+[2,   100] loss: 1.068
+[2,   150] loss: 1.070
+[2,   200] loss: 1.062
+[2,   250] loss: 1.053
+Final Summary:   loss: 1.069
+Train Accuracy of the network: 44 %
+Val Accuracy of the network: 45 %
+Test Accuracy of the network: 44 %
+[3,    50] loss: 1.062
+[3,   100] loss: 1.055
+[3,   150] loss: 1.058
+[3,   200] loss: 1.054
+[3,   250] loss: 1.047
+Final Summary:   loss: 1.059
+Train Accuracy of the network: 44 %
+Val Accuracy of the network: 45 %
+Test Accuracy of the network: 44 %
+[4,    50] loss: 1.046
+[4,   100] loss: 1.044
+[4,   150] loss: 1.052
+[4,   200] loss: 1.045
+[4,   250] loss: 1.046
+Final Summary:   loss: 1.050
+Train Accuracy of the network: 45 %
+Val Accuracy of the network: 46 %
+Test Accuracy of the network: 45 %
+[5,    50] loss: 1.044
+[5,   100] loss: 1.048
+[5,   150] loss: 1.041
+[5,   200] loss: 1.030
+[5,   250] loss: 1.034
+Final Summary:   loss: 1.044
+Train Accuracy of the network: 47 %
+Val Accuracy of the network: 48 %
+Test Accuracy of the network: 47 %
+[6,    50] loss: 1.047
+[6,   100] loss: 1.026
+[6,   150] loss: 1.031
+[6,   200] loss: 1.028
+[6,   250] loss: 1.010
+Final Summary:   loss: 1.032
+Train Accuracy of the network: 50 %
+Val Accuracy of the network: 52 %
+Test Accuracy of the network: 50 %
+[7,    50] loss: 1.013
+[7,   100] loss: 1.008
+[7,   150] loss: 0.992
+[7,   200] loss: 1.000
+[7,   250] loss: 0.976
+Final Summary:   loss: 1.002
+Train Accuracy of the network: 53 %
+Val Accuracy of the network: 55 %
+Test Accuracy of the network: 54 %
+[8,    50] loss: 0.997
+[8,   100] loss: 0.963
+[8,   150] loss: 0.957
+[8,   200] loss: 0.964
+[8,   250] loss: 0.974
+Final Summary:   loss: 0.975
+Train Accuracy of the network: 52 %
+Val Accuracy of the network: 54 %
+Test Accuracy of the network: 54 %
+[9,    50] loss: 0.944
+[9,   100] loss: 0.942
+[9,   150] loss: 0.943
+[9,   200] loss: 0.933
+[9,   250] loss: 0.923
+Final Summary:   loss: 0.940
+Train Accuracy of the network: 57 %
+Val Accuracy of the network: 59 %
+Test Accuracy of the network: 59 %
+[10,    50] loss: 0.915
+[10,   100] loss: 0.917
+[10,   150] loss: 0.905
+[10,   200] loss: 0.903
+[10,   250] loss: 0.904
+Final Summary:   loss: 0.911
+Train Accuracy of the network: 58 %
+Val Accuracy of the network: 59 %
+Test Accuracy of the network: 59 %
+[11,    50] loss: 0.866
+[11,   100] loss: 0.896
+[11,   150] loss: 0.896
+[11,   200] loss: 0.894
+[11,   250] loss: 0.877
+Final Summary:   loss: 0.889
+Train Accuracy of the network: 59 %
+Val Accuracy of the network: 60 %
+Test Accuracy of the network: 61 %
+[12,    50] loss: 0.863
+[12,   100] loss: 0.864
+[12,   150] loss: 0.879
+[12,   200] loss: 0.876
+[12,   250] loss: 0.864
+Final Summary:   loss: 0.873
+Train Accuracy of the network: 59 %
+Val Accuracy of the network: 61 %
+Test Accuracy of the network: 61 %
+[13,    50] loss: 0.869
+[13,   100] loss: 0.846
+[13,   150] loss: 0.867
+[13,   200] loss: 0.846
+[13,   250] loss: 0.844
+Final Summary:   loss: 0.857
+Train Accuracy of the network: 62 %
+Val Accuracy of the network: 63 %
+Test Accuracy of the network: 63 %
+[14,    50] loss: 0.838
+[14,   100] loss: 0.845
+[14,   150] loss: 0.823
+[14,   200] loss: 0.846
+[14,   250] loss: 0.813
+Final Summary:   loss: 0.835
+Train Accuracy of the network: 62 %
+Val Accuracy of the network: 64 %
+Test Accuracy of the network: 63 %
+[15,    50] loss: 0.836
+[15,   100] loss: 0.827
+[15,   150] loss: 0.841
+[15,   200] loss: 0.819
+[15,   250] loss: 0.815
+Final Summary:   loss: 0.831
+Train Accuracy of the network: 61 %
+Val Accuracy of the network: 62 %
+Test Accuracy of the network: 62 %
+[16,    50] loss: 0.835
+[16,   100] loss: 0.810
+[16,   150] loss: 0.788
+[16,   200] loss: 0.811
+[16,   250] loss: 0.798
+Final Summary:   loss: 0.811
+Train Accuracy of the network: 64 %
+Val Accuracy of the network: 64 %
+Test Accuracy of the network: 66 %
+[17,    50] loss: 0.787
+[17,   100] loss: 0.801
+[17,   150] loss: 0.784
+[17,   200] loss: 0.798
+[17,   250] loss: 0.801
+Final Summary:   loss: 0.797
+Train Accuracy of the network: 65 %
+Val Accuracy of the network: 66 %
+Test Accuracy of the network: 67 %
+[18,    50] loss: 0.771
+[18,   100] loss: 0.769
+[18,   150] loss: 0.779
+[18,   200] loss: 0.787
+[18,   250] loss: 0.801
+Final Summary:   loss: 0.785
+Train Accuracy of the network: 66 %
+Val Accuracy of the network: 67 %
+Test Accuracy of the network: 68 %
+[19,    50] loss: 0.763
+[19,   100] loss: 0.779
+[19,   150] loss: 0.767
+[19,   200] loss: 0.778
+[19,   250] loss: 0.786
+Final Summary:   loss: 0.778
+Train Accuracy of the network: 65 %
+Val Accuracy of the network: 67 %
+Test Accuracy of the network: 67 %
+[20,    50] loss: 0.753
+[20,   100] loss: 0.772
+[20,   150] loss: 0.766
+[20,   200] loss: 0.763
+[20,   250] loss: 0.747
+Final Summary:   loss: 0.764
+Train Accuracy of the network: 66 %
+Val Accuracy of the network: 67 %
+Test Accuracy of the network: 69 %
+[21,    50] loss: 0.762
+[21,   100] loss: 0.765
+[21,   150] loss: 0.739
+[21,   200] loss: 0.761
+[21,   250] loss: 0.736
+Final Summary:   loss: 0.756
+Train Accuracy of the network: 67 %
+Val Accuracy of the network: 67 %
+Test Accuracy of the network: 67 %
+[22,    50] loss: 0.741
+[22,   100] loss: 0.747
+[22,   150] loss: 0.751
+[22,   200] loss: 0.732
+[22,   250] loss: 0.758
+Final Summary:   loss: 0.749
+Train Accuracy of the network: 68 %
+Val Accuracy of the network: 67 %
+Test Accuracy of the network: 69 %
+[23,    50] loss: 0.732
+[23,   100] loss: 0.724
+[23,   150] loss: 0.725
+[23,   200] loss: 0.743
+[23,   250] loss: 0.743
+Final Summary:   loss: 0.737
+Train Accuracy of the network: 67 %
+Val Accuracy of the network: 67 %
+Test Accuracy of the network: 69 %
+[24,    50] loss: 0.735
+[24,   100] loss: 0.715
+[24,   150] loss: 0.714
+[24,   200] loss: 0.743
+[24,   250] loss: 0.740
+Final Summary:   loss: 0.734
+Train Accuracy of the network: 65 %
+Val Accuracy of the network: 67 %
+Test Accuracy of the network: 69 %
+[25,    50] loss: 0.757
+[25,   100] loss: 0.731
+[25,   150] loss: 0.733
+[25,   200] loss: 0.730
+[25,   250] loss: 0.720
+Final Summary:   loss: 0.737
+Train Accuracy of the network: 68 %
+Val Accuracy of the network: 68 %
+Test Accuracy of the network: 70 %
+[26,    50] loss: 0.730
+[26,   100] loss: 0.734
+[26,   150] loss: 0.723
+[26,   200] loss: 0.714
+[26,   250] loss: 0.724
+Final Summary:   loss: 0.727
+Train Accuracy of the network: 69 %
+Val Accuracy of the network: 69 %
+Test Accuracy of the network: 71 %
+[27,    50] loss: 0.720
+[27,   100] loss: 0.711
+[27,   150] loss: 0.708
+[27,   200] loss: 0.739
+[27,   250] loss: 0.708
+Final Summary:   loss: 0.720
+Train Accuracy of the network: 68 %
+Val Accuracy of the network: 67 %
+Test Accuracy of the network: 68 %
+[28,    50] loss: 0.713
+[28,   100] loss: 0.695
+[28,   150] loss: 0.699
+[28,   200] loss: 0.693
+[28,   250] loss: 0.716
+Final Summary:   loss: 0.706
+Train Accuracy of the network: 69 %
+Val Accuracy of the network: 68 %
+Test Accuracy of the network: 71 %
+[29,    50] loss: 0.682
+[29,   100] loss: 0.706
+[29,   150] loss: 0.715
+[29,   200] loss: 0.719
+[29,   250] loss: 0.716
+Final Summary:   loss: 0.710
+Train Accuracy of the network: 70 %
+Val Accuracy of the network: 70 %
+Test Accuracy of the network: 71 %
+[30,    50] loss: 0.697
+[30,   100] loss: 0.703
+[30,   150] loss: 0.704
+[30,   200] loss: 0.688
+[30,   250] loss: 0.703
+Final Summary:   loss: 0.700
+Train Accuracy of the network: 69 %
+Val Accuracy of the network: 68 %
+Test Accuracy of the network: 70 %
+[31,    50] loss: 0.690
+[31,   100] loss: 0.695
+[31,   150] loss: 0.681
+[31,   200] loss: 0.699
+[31,   250] loss: 0.708
+Final Summary:   loss: 0.698
+Train Accuracy of the network: 70 %
+Val Accuracy of the network: 70 %
+Test Accuracy of the network: 71 %
+[32,    50] loss: 0.678
+[32,   100] loss: 0.678
+[32,   150] loss: 0.697
+[32,   200] loss: 0.703
+[32,   250] loss: 0.686
+Final Summary:   loss: 0.690
+Train Accuracy of the network: 70 %
+Val Accuracy of the network: 69 %
+Test Accuracy of the network: 71 %
+[33,    50] loss: 0.726
+[33,   100] loss: 0.686
+[33,   150] loss: 0.678
+[33,   200] loss: 0.677
+[33,   250] loss: 0.696
+Final Summary:   loss: 0.694
+Train Accuracy of the network: 70 %
+Val Accuracy of the network: 70 %
+Test Accuracy of the network: 72 %
+[34,    50] loss: 0.702
+[34,   100] loss: 0.684
+[34,   150] loss: 0.676
+[34,   200] loss: 0.685
+[34,   250] loss: 0.700
+Final Summary:   loss: 0.692
+Train Accuracy of the network: 69 %
+Val Accuracy of the network: 70 %
+Test Accuracy of the network: 70 %
+[35,    50] loss: 0.684
+[35,   100] loss: 0.667
+[35,   150] loss: 0.665
+[35,   200] loss: 0.684
+[35,   250] loss: 0.677
+Final Summary:   loss: 0.677
+Train Accuracy of the network: 70 %
+Val Accuracy of the network: 70 %
+Test Accuracy of the network: 70 %
+[36,    50] loss: 0.670
+[36,   100] loss: 0.676
+[36,   150] loss: 0.677
+[36,   200] loss: 0.690
+[36,   250] loss: 0.676
+Final Summary:   loss: 0.680
+Train Accuracy of the network: 71 %
+Val Accuracy of the network: 70 %
+Test Accuracy of the network: 70 %
+[37,    50] loss: 0.656
+[37,   100] loss: 0.655
+[37,   150] loss: 0.674
+[37,   200] loss: 0.703
+[37,   250] loss: 0.686
+Final Summary:   loss: 0.676
+Train Accuracy of the network: 71 %
+Val Accuracy of the network: 71 %
+Test Accuracy of the network: 71 %
+[38,    50] loss: 0.660
+[38,   100] loss: 0.666
+[38,   150] loss: 0.690
+[38,   200] loss: 0.665
+[38,   250] loss: 0.670
+Final Summary:   loss: 0.673
+Train Accuracy of the network: 72 %
+Val Accuracy of the network: 70 %
+Test Accuracy of the network: 72 %
+[39,    50] loss: 0.677
+[39,   100] loss: 0.673
+[39,   150] loss: 0.663
+[39,   200] loss: 0.663
+[39,   250] loss: 0.667
+Final Summary:   loss: 0.673
+Train Accuracy of the network: 71 %
+Val Accuracy of the network: 71 %
+Test Accuracy of the network: 72 %
+[40,    50] loss: 0.659
+[40,   100] loss: 0.653
+[40,   150] loss: 0.675
+[40,   200] loss: 0.666
+[40,   250] loss: 0.681
+Final Summary:   loss: 0.670
+Train Accuracy of the network: 71 %
+Val Accuracy of the network: 71 %
+Test Accuracy of the network: 72 %
+[41,    50] loss: 0.667
+[41,   100] loss: 0.669
+[41,   150] loss: 0.655
+[41,   200] loss: 0.661
+[41,   250] loss: 0.669
+Final Summary:   loss: 0.667
+Train Accuracy of the network: 70 %
+Val Accuracy of the network: 70 %
+Test Accuracy of the network: 72 %
+[42,    50] loss: 0.669
+[42,   100] loss: 0.671
+[42,   150] loss: 0.666
+[42,   200] loss: 0.652
+[42,   250] loss: 0.660
+Final Summary:   loss: 0.667
+Train Accuracy of the network: 70 %
+Val Accuracy of the network: 71 %
+Test Accuracy of the network: 72 %
+[43,    50] loss: 0.679
+[43,   100] loss: 0.644
+[43,   150] loss: 0.653
+[43,   200] loss: 0.675
+[43,   250] loss: 0.651
+Final Summary:   loss: 0.663
+Train Accuracy of the network: 71 %
+Val Accuracy of the network: 70 %
+Test Accuracy of the network: 73 %
+[44,    50] loss: 0.671
+[44,   100] loss: 0.617
+[44,   150] loss: 0.680
+[44,   200] loss: 0.663
+[44,   250] loss: 0.659
+Final Summary:   loss: 0.660
+Train Accuracy of the network: 71 %
+Val Accuracy of the network: 71 %
+Test Accuracy of the network: 71 %
+[45,    50] loss: 0.665
+[45,   100] loss: 0.671
+[45,   150] loss: 0.646
+[45,   200] loss: 0.630
+[45,   250] loss: 0.670
+Final Summary:   loss: 0.659
+Train Accuracy of the network: 71 %
+Val Accuracy of the network: 71 %
+Test Accuracy of the network: 73 %
+[46,    50] loss: 0.644
+[46,   100] loss: 0.639
+[46,   150] loss: 0.641
+[46,   200] loss: 0.656
+[46,   250] loss: 0.679
+Final Summary:   loss: 0.655
+Train Accuracy of the network: 72 %
+Val Accuracy of the network: 71 %
+Test Accuracy of the network: 73 %
+[47,    50] loss: 0.642
+[47,   100] loss: 0.648
+[47,   150] loss: 0.650
+[47,   200] loss: 0.659
+[47,   250] loss: 0.657
+Final Summary:   loss: 0.654
+Train Accuracy of the network: 72 %
+Val Accuracy of the network: 71 %
+Test Accuracy of the network: 73 %
+[48,    50] loss: 0.676
+[48,   100] loss: 0.664
+[48,   150] loss: 0.638
+[48,   200] loss: 0.645
+[48,   250] loss: 0.646
+Final Summary:   loss: 0.657
+Train Accuracy of the network: 71 %
+Val Accuracy of the network: 70 %
+Test Accuracy of the network: 70 %
+[49,    50] loss: 0.642
+[49,   100] loss: 0.633
+[49,   150] loss: 0.641
+[49,   200] loss: 0.658
+[49,   250] loss: 0.668
+Final Summary:   loss: 0.651
+Train Accuracy of the network: 72 %
+Val Accuracy of the network: 70 %
+Test Accuracy of the network: 73 %
+[50,    50] loss: 0.644
+[50,   100] loss: 0.644
+[50,   150] loss: 0.659
+[50,   200] loss: 0.625
+[50,   250] loss: 0.666
+Final Summary:   loss: 0.651
+Train Accuracy of the network: 72 %
+Val Accuracy of the network: 71 %
+Test Accuracy of the network: 73 %
+[51,    50] loss: 0.646
+[51,   100] loss: 0.638
+[51,   150] loss: 0.638
+[51,   200] loss: 0.650
+[51,   250] loss: 0.645
+Final Summary:   loss: 0.646
+Train Accuracy of the network: 72 %
+Val Accuracy of the network: 71 %
+Test Accuracy of the network: 73 %
+[52,    50] loss: 0.648
+[52,   100] loss: 0.648
+[52,   150] loss: 0.642
+[52,   200] loss: 0.652
+[52,   250] loss: 0.665
+Final Summary:   loss: 0.653
+Train Accuracy of the network: 72 %
+Val Accuracy of the network: 70 %
+Test Accuracy of the network: 71 %
+[53,    50] loss: 0.650
+[53,   100] loss: 0.620
+[53,   150] loss: 0.637
+[53,   200] loss: 0.648
+[53,   250] loss: 0.649
+Final Summary:   loss: 0.644
+Train Accuracy of the network: 72 %
+Val Accuracy of the network: 70 %
+Test Accuracy of the network: 73 %
+[54,    50] loss: 0.648
+[54,   100] loss: 0.647
+[54,   150] loss: 0.639
+[54,   200] loss: 0.643
+[54,   250] loss: 0.644
+Final Summary:   loss: 0.646
+Train Accuracy of the network: 72 %
+Val Accuracy of the network: 71 %
+Test Accuracy of the network: 73 %
+[55,    50] loss: 0.606
+[55,   100] loss: 0.629
+[55,   150] loss: 0.619
+[55,   200] loss: 0.669
+[55,   250] loss: 0.642
+Final Summary:   loss: 0.637
+Train Accuracy of the network: 72 %
+Val Accuracy of the network: 71 %
+Test Accuracy of the network: 74 %
+[56,    50] loss: 0.650
+[56,   100] loss: 0.639
+[56,   150] loss: 0.652
+[56,   200] loss: 0.626
+[56,   250] loss: 0.627
+Final Summary:   loss: 0.641
+Train Accuracy of the network: 71 %
+Val Accuracy of the network: 70 %
+Test Accuracy of the network: 72 %
+[57,    50] loss: 0.651
+[57,   100] loss: 0.622
+[57,   150] loss: 0.637
+[57,   200] loss: 0.636
+[57,   250] loss: 0.637
+Final Summary:   loss: 0.639
+Train Accuracy of the network: 72 %
+Val Accuracy of the network: 71 %
+Test Accuracy of the network: 75 %
+[58,    50] loss: 0.664
+[58,   100] loss: 0.609
+[58,   150] loss: 0.623
+[58,   200] loss: 0.629
+[58,   250] loss: 0.621
+Final Summary:   loss: 0.632
+Train Accuracy of the network: 73 %
+Val Accuracy of the network: 71 %
+Test Accuracy of the network: 73 %
+[59,    50] loss: 0.658
+[59,   100] loss: 0.611
+[59,   150] loss: 0.634
+[59,   200] loss: 0.629
+[59,   250] loss: 0.616
+Final Summary:   loss: 0.632
+Train Accuracy of the network: 73 %
+Val Accuracy of the network: 70 %
+Test Accuracy of the network: 75 %
+[60,    50] loss: 0.625
+[60,   100] loss: 0.634
+[60,   150] loss: 0.658
+[60,   200] loss: 0.615
+[60,   250] loss: 0.611
+Final Summary:   loss: 0.630
+Train Accuracy of the network: 72 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 74 %
+[61,    50] loss: 0.653
+[61,   100] loss: 0.609
+[61,   150] loss: 0.628
+[61,   200] loss: 0.654
+[61,   250] loss: 0.635
+Final Summary:   loss: 0.639
+Train Accuracy of the network: 72 %
+Val Accuracy of the network: 71 %
+Test Accuracy of the network: 73 %
+[62,    50] loss: 0.606
+[62,   100] loss: 0.634
+[62,   150] loss: 0.631
+[62,   200] loss: 0.617
+[62,   250] loss: 0.632
+Final Summary:   loss: 0.627
+Train Accuracy of the network: 73 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 74 %
+[63,    50] loss: 0.596
+[63,   100] loss: 0.636
+[63,   150] loss: 0.601
+[63,   200] loss: 0.626
+[63,   250] loss: 0.642
+Final Summary:   loss: 0.622
+Train Accuracy of the network: 73 %
+Val Accuracy of the network: 71 %
+Test Accuracy of the network: 74 %
+[64,    50] loss: 0.621
+[64,   100] loss: 0.623
+[64,   150] loss: 0.626
+[64,   200] loss: 0.628
+[64,   250] loss: 0.617
+Final Summary:   loss: 0.625
+Train Accuracy of the network: 74 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 73 %
+[65,    50] loss: 0.620
+[65,   100] loss: 0.605
+[65,   150] loss: 0.624
+[65,   200] loss: 0.621
+[65,   250] loss: 0.629
+Final Summary:   loss: 0.622
+Train Accuracy of the network: 73 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 74 %
+[66,    50] loss: 0.627
+[66,   100] loss: 0.606
+[66,   150] loss: 0.619
+[66,   200] loss: 0.626
+[66,   250] loss: 0.629
+Final Summary:   loss: 0.623
+Train Accuracy of the network: 73 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 74 %
+[67,    50] loss: 0.608
+[67,   100] loss: 0.626
+[67,   150] loss: 0.631
+[67,   200] loss: 0.620
+[67,   250] loss: 0.641
+Final Summary:   loss: 0.628
+Train Accuracy of the network: 74 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 74 %
+[68,    50] loss: 0.624
+[68,   100] loss: 0.601
+[68,   150] loss: 0.625
+[68,   200] loss: 0.621
+[68,   250] loss: 0.618
+Final Summary:   loss: 0.620
+Train Accuracy of the network: 74 %
+Val Accuracy of the network: 71 %
+Test Accuracy of the network: 73 %
+[69,    50] loss: 0.605
+[69,   100] loss: 0.631
+[69,   150] loss: 0.620
+[69,   200] loss: 0.610
+[69,   250] loss: 0.619
+Final Summary:   loss: 0.621
+Train Accuracy of the network: 74 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 74 %
+[70,    50] loss: 0.620
+[70,   100] loss: 0.632
+[70,   150] loss: 0.635
+[70,   200] loss: 0.625
+[70,   250] loss: 0.626
+Final Summary:   loss: 0.630
+Train Accuracy of the network: 73 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 75 %
+[71,    50] loss: 0.618
+[71,   100] loss: 0.631
+[71,   150] loss: 0.614
+[71,   200] loss: 0.594
+[71,   250] loss: 0.619
+Final Summary:   loss: 0.618
+Train Accuracy of the network: 74 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 74 %
+[72,    50] loss: 0.615
+[72,   100] loss: 0.579
+[72,   150] loss: 0.602
+[72,   200] loss: 0.619
+[72,   250] loss: 0.635
+Final Summary:   loss: 0.613
+Train Accuracy of the network: 74 %
+Val Accuracy of the network: 71 %
+Test Accuracy of the network: 74 %
+[73,    50] loss: 0.632
+[73,   100] loss: 0.623
+[73,   150] loss: 0.612
+[73,   200] loss: 0.609
+[73,   250] loss: 0.604
+Final Summary:   loss: 0.617
+Train Accuracy of the network: 73 %
+Val Accuracy of the network: 70 %
+Test Accuracy of the network: 73 %
+[74,    50] loss: 0.624
+[74,   100] loss: 0.636
+[74,   150] loss: 0.597
+[74,   200] loss: 0.605
+[74,   250] loss: 0.616
+Final Summary:   loss: 0.618
+Train Accuracy of the network: 72 %
+Val Accuracy of the network: 69 %
+Test Accuracy of the network: 72 %
+[75,    50] loss: 0.602
+[75,   100] loss: 0.595
+[75,   150] loss: 0.617
+[75,   200] loss: 0.636
+[75,   250] loss: 0.602
+Final Summary:   loss: 0.613
+Train Accuracy of the network: 73 %
+Val Accuracy of the network: 71 %
+Test Accuracy of the network: 73 %
+[76,    50] loss: 0.628
+[76,   100] loss: 0.595
+[76,   150] loss: 0.606
+[76,   200] loss: 0.605
+[76,   250] loss: 0.622
+Final Summary:   loss: 0.614
+Train Accuracy of the network: 73 %
+Val Accuracy of the network: 71 %
+Test Accuracy of the network: 74 %
+[77,    50] loss: 0.614
+[77,   100] loss: 0.618
+[77,   150] loss: 0.612
+[77,   200] loss: 0.594
+[77,   250] loss: 0.608
+Final Summary:   loss: 0.613
+Train Accuracy of the network: 74 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 74 %
+[78,    50] loss: 0.603
+[78,   100] loss: 0.607
+[78,   150] loss: 0.615
+[78,   200] loss: 0.610
+[78,   250] loss: 0.609
+Final Summary:   loss: 0.610
+Train Accuracy of the network: 73 %
+Val Accuracy of the network: 71 %
+Test Accuracy of the network: 72 %
+[79,    50] loss: 0.596
+[79,   100] loss: 0.624
+[79,   150] loss: 0.617
+[79,   200] loss: 0.604
+[79,   250] loss: 0.597
+Final Summary:   loss: 0.609
+Train Accuracy of the network: 74 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 75 %
+[80,    50] loss: 0.609
+[80,   100] loss: 0.592
+[80,   150] loss: 0.623
+[80,   200] loss: 0.612
+[80,   250] loss: 0.606
+Final Summary:   loss: 0.611
+Train Accuracy of the network: 74 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 74 %
+[81,    50] loss: 0.582
+[81,   100] loss: 0.625
+[81,   150] loss: 0.604
+[81,   200] loss: 0.582
+[81,   250] loss: 0.617
+Final Summary:   loss: 0.606
+Train Accuracy of the network: 74 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 76 %
+[82,    50] loss: 0.609
+[82,   100] loss: 0.601
+[82,   150] loss: 0.615
+[82,   200] loss: 0.610
+[82,   250] loss: 0.608
+Final Summary:   loss: 0.610
+Train Accuracy of the network: 75 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 74 %
+[83,    50] loss: 0.587
+[83,   100] loss: 0.601
+[83,   150] loss: 0.604
+[83,   200] loss: 0.594
+[83,   250] loss: 0.619
+Final Summary:   loss: 0.603
+Train Accuracy of the network: 73 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 74 %
+[84,    50] loss: 0.600
+[84,   100] loss: 0.643
+[84,   150] loss: 0.586
+[84,   200] loss: 0.600
+[84,   250] loss: 0.619
+Final Summary:   loss: 0.612
+Train Accuracy of the network: 75 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+[85,    50] loss: 0.605
+[85,   100] loss: 0.585
+[85,   150] loss: 0.596
+[85,   200] loss: 0.627
+[85,   250] loss: 0.607
+Final Summary:   loss: 0.608
+Train Accuracy of the network: 74 %
+Val Accuracy of the network: 71 %
+Test Accuracy of the network: 75 %
+[86,    50] loss: 0.596
+[86,   100] loss: 0.592
+[86,   150] loss: 0.596
+[86,   200] loss: 0.620
+[86,   250] loss: 0.598
+Final Summary:   loss: 0.602
+Train Accuracy of the network: 74 %
+Val Accuracy of the network: 74 %
+Test Accuracy of the network: 75 %
+[87,    50] loss: 0.581
+[87,   100] loss: 0.584
+[87,   150] loss: 0.605
+[87,   200] loss: 0.602
+[87,   250] loss: 0.616
+Final Summary:   loss: 0.600
+Train Accuracy of the network: 75 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+[88,    50] loss: 0.589
+[88,   100] loss: 0.625
+[88,   150] loss: 0.593
+[88,   200] loss: 0.594
+[88,   250] loss: 0.605
+Final Summary:   loss: 0.603
+Train Accuracy of the network: 75 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+[89,    50] loss: 0.602
+[89,   100] loss: 0.595
+[89,   150] loss: 0.605
+[89,   200] loss: 0.602
+[89,   250] loss: 0.604
+Final Summary:   loss: 0.604
+Train Accuracy of the network: 74 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 75 %
+[90,    50] loss: 0.596
+[90,   100] loss: 0.566
+[90,   150] loss: 0.644
+[90,   200] loss: 0.586
+[90,   250] loss: 0.618
+Final Summary:   loss: 0.605
+Train Accuracy of the network: 75 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 75 %
+[91,    50] loss: 0.601
+[91,   100] loss: 0.595
+[91,   150] loss: 0.579
+[91,   200] loss: 0.583
+[91,   250] loss: 0.596
+Final Summary:   loss: 0.594
+Train Accuracy of the network: 74 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 76 %
+[92,    50] loss: 0.585
+[92,   100] loss: 0.599
+[92,   150] loss: 0.589
+[92,   200] loss: 0.618
+[92,   250] loss: 0.587
+Final Summary:   loss: 0.598
+Train Accuracy of the network: 74 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 75 %
+[93,    50] loss: 0.599
+[93,   100] loss: 0.571
+[93,   150] loss: 0.605
+[93,   200] loss: 0.593
+[93,   250] loss: 0.595
+Final Summary:   loss: 0.596
+Train Accuracy of the network: 75 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+[94,    50] loss: 0.582
+[94,   100] loss: 0.602
+[94,   150] loss: 0.607
+[94,   200] loss: 0.578
+[94,   250] loss: 0.604
+Final Summary:   loss: 0.597
+Train Accuracy of the network: 73 %
+Val Accuracy of the network: 71 %
+Test Accuracy of the network: 75 %
+[95,    50] loss: 0.602
+[95,   100] loss: 0.589
+[95,   150] loss: 0.599
+[95,   200] loss: 0.598
+[95,   250] loss: 0.595
+Final Summary:   loss: 0.598
+Train Accuracy of the network: 75 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+[96,    50] loss: 0.583
+[96,   100] loss: 0.584
+[96,   150] loss: 0.598
+[96,   200] loss: 0.580
+[96,   250] loss: 0.607
+Final Summary:   loss: 0.593
+Train Accuracy of the network: 75 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 75 %
+[97,    50] loss: 0.572
+[97,   100] loss: 0.589
+[97,   150] loss: 0.582
+[97,   200] loss: 0.591
+[97,   250] loss: 0.610
+Final Summary:   loss: 0.590
+Train Accuracy of the network: 75 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 76 %
+[98,    50] loss: 0.583
+[98,   100] loss: 0.596
+[98,   150] loss: 0.600
+[98,   200] loss: 0.595
+[98,   250] loss: 0.595
+Final Summary:   loss: 0.596
+Train Accuracy of the network: 74 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+[99,    50] loss: 0.582
+[99,   100] loss: 0.603
+[99,   150] loss: 0.596
+[99,   200] loss: 0.588
+[99,   250] loss: 0.597
+Final Summary:   loss: 0.595
+Train Accuracy of the network: 74 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 75 %
+[100,    50] loss: 0.586
+[100,   100] loss: 0.597
+[100,   150] loss: 0.611
+[100,   200] loss: 0.573
+[100,   250] loss: 0.586
+Final Summary:   loss: 0.593
+Train Accuracy of the network: 75 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+[101,    50] loss: 0.597
+[101,   100] loss: 0.593
+[101,   150] loss: 0.607
+[101,   200] loss: 0.598
+[101,   250] loss: 0.582
+Final Summary:   loss: 0.597
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+[102,    50] loss: 0.589
+[102,   100] loss: 0.594
+[102,   150] loss: 0.570
+[102,   200] loss: 0.575
+[102,   250] loss: 0.589
+Final Summary:   loss: 0.587
+Train Accuracy of the network: 75 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+[103,    50] loss: 0.592
+[103,   100] loss: 0.561
+[103,   150] loss: 0.577
+[103,   200] loss: 0.592
+[103,   250] loss: 0.598
+Final Summary:   loss: 0.587
+Train Accuracy of the network: 75 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+[104,    50] loss: 0.564
+[104,   100] loss: 0.584
+[104,   150] loss: 0.582
+[104,   200] loss: 0.595
+[104,   250] loss: 0.576
+Final Summary:   loss: 0.582
+Train Accuracy of the network: 75 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 75 %
+[105,    50] loss: 0.577
+[105,   100] loss: 0.590
+[105,   150] loss: 0.605
+[105,   200] loss: 0.596
+[105,   250] loss: 0.584
+Final Summary:   loss: 0.593
+Train Accuracy of the network: 75 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 76 %
+[106,    50] loss: 0.584
+[106,   100] loss: 0.575
+[106,   150] loss: 0.589
+[106,   200] loss: 0.575
+[106,   250] loss: 0.583
+Final Summary:   loss: 0.583
+Train Accuracy of the network: 75 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 75 %
+[107,    50] loss: 0.584
+[107,   100] loss: 0.567
+[107,   150] loss: 0.609
+[107,   200] loss: 0.583
+[107,   250] loss: 0.575
+Final Summary:   loss: 0.585
+Train Accuracy of the network: 75 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 74 %
+[108,    50] loss: 0.593
+[108,   100] loss: 0.569
+[108,   150] loss: 0.572
+[108,   200] loss: 0.605
+[108,   250] loss: 0.585
+Final Summary:   loss: 0.588
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 76 %
+[109,    50] loss: 0.568
+[109,   100] loss: 0.579
+[109,   150] loss: 0.592
+[109,   200] loss: 0.578
+[109,   250] loss: 0.577
+Final Summary:   loss: 0.581
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 75 %
+[110,    50] loss: 0.577
+[110,   100] loss: 0.599
+[110,   150] loss: 0.580
+[110,   200] loss: 0.574
+[110,   250] loss: 0.591
+Final Summary:   loss: 0.586
+Train Accuracy of the network: 74 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 74 %
+[111,    50] loss: 0.600
+[111,   100] loss: 0.572
+[111,   150] loss: 0.569
+[111,   200] loss: 0.578
+[111,   250] loss: 0.573
+Final Summary:   loss: 0.580
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+[112,    50] loss: 0.566
+[112,   100] loss: 0.572
+[112,   150] loss: 0.584
+[112,   200] loss: 0.594
+[112,   250] loss: 0.582
+Final Summary:   loss: 0.581
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 76 %
+[113,    50] loss: 0.556
+[113,   100] loss: 0.590
+[113,   150] loss: 0.584
+[113,   200] loss: 0.596
+[113,   250] loss: 0.583
+Final Summary:   loss: 0.585
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+[114,    50] loss: 0.566
+[114,   100] loss: 0.573
+[114,   150] loss: 0.588
+[114,   200] loss: 0.564
+[114,   250] loss: 0.599
+Final Summary:   loss: 0.580
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 76 %
+[115,    50] loss: 0.573
+[115,   100] loss: 0.584
+[115,   150] loss: 0.572
+[115,   200] loss: 0.584
+[115,   250] loss: 0.564
+Final Summary:   loss: 0.578
+Train Accuracy of the network: 75 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 76 %
+[116,    50] loss: 0.571
+[116,   100] loss: 0.593
+[116,   150] loss: 0.575
+[116,   200] loss: 0.568
+[116,   250] loss: 0.594
+Final Summary:   loss: 0.582
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+[117,    50] loss: 0.572
+[117,   100] loss: 0.577
+[117,   150] loss: 0.563
+[117,   200] loss: 0.584
+[117,   250] loss: 0.562
+Final Summary:   loss: 0.575
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 76 %
+[118,    50] loss: 0.574
+[118,   100] loss: 0.567
+[118,   150] loss: 0.580
+[118,   200] loss: 0.593
+[118,   250] loss: 0.575
+Final Summary:   loss: 0.580
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+[119,    50] loss: 0.584
+[119,   100] loss: 0.582
+[119,   150] loss: 0.584
+[119,   200] loss: 0.585
+[119,   250] loss: 0.567
+Final Summary:   loss: 0.583
+Train Accuracy of the network: 75 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+[120,    50] loss: 0.586
+[120,   100] loss: 0.581
+[120,   150] loss: 0.592
+[120,   200] loss: 0.570
+[120,   250] loss: 0.563
+Final Summary:   loss: 0.580
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 76 %
+[121,    50] loss: 0.554
+[121,   100] loss: 0.593
+[121,   150] loss: 0.585
+[121,   200] loss: 0.573
+[121,   250] loss: 0.564
+Final Summary:   loss: 0.576
+Train Accuracy of the network: 75 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 76 %
+[122,    50] loss: 0.571
+[122,   100] loss: 0.575
+[122,   150] loss: 0.550
+[122,   200] loss: 0.577
+[122,   250] loss: 0.593
+Final Summary:   loss: 0.575
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 74 %
+[123,    50] loss: 0.570
+[123,   100] loss: 0.562
+[123,   150] loss: 0.569
+[123,   200] loss: 0.581
+[123,   250] loss: 0.559
+Final Summary:   loss: 0.569
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 76 %
+[124,    50] loss: 0.564
+[124,   100] loss: 0.561
+[124,   150] loss: 0.561
+[124,   200] loss: 0.569
+[124,   250] loss: 0.584
+Final Summary:   loss: 0.571
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 75 %
+[125,    50] loss: 0.567
+[125,   100] loss: 0.569
+[125,   150] loss: 0.570
+[125,   200] loss: 0.573
+[125,   250] loss: 0.559
+Final Summary:   loss: 0.571
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 74 %
+Test Accuracy of the network: 75 %
+[126,    50] loss: 0.572
+[126,   100] loss: 0.566
+[126,   150] loss: 0.566
+[126,   200] loss: 0.571
+[126,   250] loss: 0.586
+Final Summary:   loss: 0.576
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+[127,    50] loss: 0.598
+[127,   100] loss: 0.570
+[127,   150] loss: 0.561
+[127,   200] loss: 0.565
+[127,   250] loss: 0.570
+Final Summary:   loss: 0.575
+Train Accuracy of the network: 75 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 75 %
+[128,    50] loss: 0.578
+[128,   100] loss: 0.559
+[128,   150] loss: 0.561
+[128,   200] loss: 0.555
+[128,   250] loss: 0.572
+Final Summary:   loss: 0.568
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 74 %
+Test Accuracy of the network: 75 %
+[129,    50] loss: 0.549
+[129,   100] loss: 0.560
+[129,   150] loss: 0.595
+[129,   200] loss: 0.583
+[129,   250] loss: 0.583
+Final Summary:   loss: 0.577
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 74 %
+Test Accuracy of the network: 76 %
+[130,    50] loss: 0.549
+[130,   100] loss: 0.541
+[130,   150] loss: 0.589
+[130,   200] loss: 0.569
+[130,   250] loss: 0.551
+Final Summary:   loss: 0.562
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 74 %
+Test Accuracy of the network: 75 %
+[131,    50] loss: 0.550
+[131,   100] loss: 0.573
+[131,   150] loss: 0.554
+[131,   200] loss: 0.575
+[131,   250] loss: 0.573
+Final Summary:   loss: 0.568
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 76 %
+[132,    50] loss: 0.567
+[132,   100] loss: 0.583
+[132,   150] loss: 0.550
+[132,   200] loss: 0.576
+[132,   250] loss: 0.573
+Final Summary:   loss: 0.573
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 75 %
+[133,    50] loss: 0.553
+[133,   100] loss: 0.570
+[133,   150] loss: 0.570
+[133,   200] loss: 0.579
+[133,   250] loss: 0.558
+Final Summary:   loss: 0.568
+Train Accuracy of the network: 74 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 73 %
+[134,    50] loss: 0.571
+[134,   100] loss: 0.559
+[134,   150] loss: 0.584
+[134,   200] loss: 0.563
+[134,   250] loss: 0.573
+Final Summary:   loss: 0.571
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 76 %
+[135,    50] loss: 0.557
+[135,   100] loss: 0.570
+[135,   150] loss: 0.568
+[135,   200] loss: 0.556
+[135,   250] loss: 0.576
+Final Summary:   loss: 0.568
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 74 %
+Test Accuracy of the network: 76 %
+[136,    50] loss: 0.552
+[136,   100] loss: 0.586
+[136,   150] loss: 0.587
+[136,   200] loss: 0.562
+[136,   250] loss: 0.556
+Final Summary:   loss: 0.572
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 76 %
+[137,    50] loss: 0.559
+[137,   100] loss: 0.559
+[137,   150] loss: 0.560
+[137,   200] loss: 0.579
+[137,   250] loss: 0.559
+Final Summary:   loss: 0.566
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 74 %
+Test Accuracy of the network: 75 %
+[138,    50] loss: 0.542
+[138,   100] loss: 0.565
+[138,   150] loss: 0.562
+[138,   200] loss: 0.575
+[138,   250] loss: 0.571
+Final Summary:   loss: 0.565
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 74 %
+Test Accuracy of the network: 76 %
+[139,    50] loss: 0.539
+[139,   100] loss: 0.554
+[139,   150] loss: 0.588
+[139,   200] loss: 0.578
+[139,   250] loss: 0.570
+Final Summary:   loss: 0.568
+Train Accuracy of the network: 75 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+[140,    50] loss: 0.559
+[140,   100] loss: 0.568
+[140,   150] loss: 0.565
+[140,   200] loss: 0.555
+[140,   250] loss: 0.560
+Final Summary:   loss: 0.564
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 76 %
+[141,    50] loss: 0.562
+[141,   100] loss: 0.547
+[141,   150] loss: 0.564
+[141,   200] loss: 0.588
+[141,   250] loss: 0.580
+Final Summary:   loss: 0.570
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+[142,    50] loss: 0.557
+[142,   100] loss: 0.565
+[142,   150] loss: 0.577
+[142,   200] loss: 0.555
+[142,   250] loss: 0.545
+Final Summary:   loss: 0.563
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+[143,    50] loss: 0.552
+[143,   100] loss: 0.566
+[143,   150] loss: 0.559
+[143,   200] loss: 0.571
+[143,   250] loss: 0.564
+Final Summary:   loss: 0.564
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 74 %
+Test Accuracy of the network: 74 %
+[144,    50] loss: 0.554
+[144,   100] loss: 0.544
+[144,   150] loss: 0.574
+[144,   200] loss: 0.573
+[144,   250] loss: 0.558
+Final Summary:   loss: 0.562
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 74 %
+Test Accuracy of the network: 76 %
+[145,    50] loss: 0.553
+[145,   100] loss: 0.531
+[145,   150] loss: 0.556
+[145,   200] loss: 0.587
+[145,   250] loss: 0.579
+Final Summary:   loss: 0.563
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 75 %
+[146,    50] loss: 0.568
+[146,   100] loss: 0.564
+[146,   150] loss: 0.571
+[146,   200] loss: 0.559
+[146,   250] loss: 0.558
+Final Summary:   loss: 0.566
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 75 %
+[147,    50] loss: 0.544
+[147,   100] loss: 0.561
+[147,   150] loss: 0.555
+[147,   200] loss: 0.542
+[147,   250] loss: 0.577
+Final Summary:   loss: 0.558
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+[148,    50] loss: 0.561
+[148,   100] loss: 0.551
+[148,   150] loss: 0.556
+[148,   200] loss: 0.548
+[148,   250] loss: 0.573
+Final Summary:   loss: 0.560
+Train Accuracy of the network: 74 %
+Val Accuracy of the network: 69 %
+Test Accuracy of the network: 71 %
+[149,    50] loss: 0.551
+[149,   100] loss: 0.551
+[149,   150] loss: 0.578
+[149,   200] loss: 0.564
+[149,   250] loss: 0.559
+Final Summary:   loss: 0.563
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 74 %
+Test Accuracy of the network: 76 %
+[150,    50] loss: 0.559
+[150,   100] loss: 0.560
+[150,   150] loss: 0.580
+[150,   200] loss: 0.549
+[150,   250] loss: 0.545
+Final Summary:   loss: 0.560
+Train Accuracy of the network: 75 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 75 %
+[151,    50] loss: 0.577
+[151,   100] loss: 0.571
+[151,   150] loss: 0.551
+[151,   200] loss: 0.539
+[151,   250] loss: 0.574
+Final Summary:   loss: 0.565
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 74 %
+Test Accuracy of the network: 75 %
+[152,    50] loss: 0.547
+[152,   100] loss: 0.539
+[152,   150] loss: 0.573
+[152,   200] loss: 0.558
+[152,   250] loss: 0.563
+Final Summary:   loss: 0.558
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 74 %
+[153,    50] loss: 0.565
+[153,   100] loss: 0.555
+[153,   150] loss: 0.551
+[153,   200] loss: 0.537
+[153,   250] loss: 0.565
+Final Summary:   loss: 0.558
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 76 %
+[154,    50] loss: 0.557
+[154,   100] loss: 0.541
+[154,   150] loss: 0.563
+[154,   200] loss: 0.569
+[154,   250] loss: 0.562
+Final Summary:   loss: 0.561
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 76 %
+[155,    50] loss: 0.540
+[155,   100] loss: 0.575
+[155,   150] loss: 0.564
+[155,   200] loss: 0.600
+[155,   250] loss: 0.528
+Final Summary:   loss: 0.564
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+[156,    50] loss: 0.570
+[156,   100] loss: 0.551
+[156,   150] loss: 0.585
+[156,   200] loss: 0.559
+[156,   250] loss: 0.548
+Final Summary:   loss: 0.565
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 74 %
+Test Accuracy of the network: 76 %
+[157,    50] loss: 0.536
+[157,   100] loss: 0.569
+[157,   150] loss: 0.552
+[157,   200] loss: 0.546
+[157,   250] loss: 0.565
+Final Summary:   loss: 0.556
+Train Accuracy of the network: 78 %
+Val Accuracy of the network: 74 %
+Test Accuracy of the network: 76 %
+[158,    50] loss: 0.541
+[158,   100] loss: 0.564
+[158,   150] loss: 0.561
+[158,   200] loss: 0.541
+[158,   250] loss: 0.552
+Final Summary:   loss: 0.554
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 74 %
+Test Accuracy of the network: 76 %
+[159,    50] loss: 0.541
+[159,   100] loss: 0.549
+[159,   150] loss: 0.558
+[159,   200] loss: 0.555
+[159,   250] loss: 0.564
+Final Summary:   loss: 0.556
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+[160,    50] loss: 0.562
+[160,   100] loss: 0.554
+[160,   150] loss: 0.569
+[160,   200] loss: 0.534
+[160,   250] loss: 0.557
+Final Summary:   loss: 0.559
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 74 %
+Test Accuracy of the network: 75 %
+[161,    50] loss: 0.533
+[161,   100] loss: 0.562
+[161,   150] loss: 0.550
+[161,   200] loss: 0.567
+[161,   250] loss: 0.553
+Final Summary:   loss: 0.555
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 75 %
+Test Accuracy of the network: 76 %
+[162,    50] loss: 0.563
+[162,   100] loss: 0.539
+[162,   150] loss: 0.553
+[162,   200] loss: 0.544
+[162,   250] loss: 0.533
+Final Summary:   loss: 0.548
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+[163,    50] loss: 0.542
+[163,   100] loss: 0.537
+[163,   150] loss: 0.573
+[163,   200] loss: 0.550
+[163,   250] loss: 0.541
+Final Summary:   loss: 0.551
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 76 %
+[164,    50] loss: 0.542
+[164,   100] loss: 0.570
+[164,   150] loss: 0.551
+[164,   200] loss: 0.557
+[164,   250] loss: 0.545
+Final Summary:   loss: 0.555
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 77 %
+[165,    50] loss: 0.545
+[165,   100] loss: 0.536
+[165,   150] loss: 0.555
+[165,   200] loss: 0.574
+[165,   250] loss: 0.539
+Final Summary:   loss: 0.552
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 74 %
+Test Accuracy of the network: 76 %
+[166,    50] loss: 0.542
+[166,   100] loss: 0.552
+[166,   150] loss: 0.555
+[166,   200] loss: 0.561
+[166,   250] loss: 0.544
+Final Summary:   loss: 0.553
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 76 %
+[167,    50] loss: 0.550
+[167,   100] loss: 0.554
+[167,   150] loss: 0.552
+[167,   200] loss: 0.551
+[167,   250] loss: 0.545
+Final Summary:   loss: 0.552
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 74 %
+Test Accuracy of the network: 77 %
+[168,    50] loss: 0.535
+[168,   100] loss: 0.545
+[168,   150] loss: 0.539
+[168,   200] loss: 0.544
+[168,   250] loss: 0.554
+Final Summary:   loss: 0.546
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 74 %
+Test Accuracy of the network: 76 %
+[169,    50] loss: 0.543
+[169,   100] loss: 0.547
+[169,   150] loss: 0.562
+[169,   200] loss: 0.562
+[169,   250] loss: 0.556
+Final Summary:   loss: 0.556
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 75 %
+Test Accuracy of the network: 77 %
+[170,    50] loss: 0.544
+[170,   100] loss: 0.552
+[170,   150] loss: 0.547
+[170,   200] loss: 0.541
+[170,   250] loss: 0.541
+Final Summary:   loss: 0.548
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 76 %
+[171,    50] loss: 0.550
+[171,   100] loss: 0.545
+[171,   150] loss: 0.532
+[171,   200] loss: 0.557
+[171,   250] loss: 0.536
+Final Summary:   loss: 0.546
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+[172,    50] loss: 0.536
+[172,   100] loss: 0.548
+[172,   150] loss: 0.555
+[172,   200] loss: 0.548
+[172,   250] loss: 0.544
+Final Summary:   loss: 0.548
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 74 %
+Test Accuracy of the network: 76 %
+[173,    50] loss: 0.545
+[173,   100] loss: 0.552
+[173,   150] loss: 0.546
+[173,   200] loss: 0.560
+[173,   250] loss: 0.536
+Final Summary:   loss: 0.550
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 76 %
+[174,    50] loss: 0.533
+[174,   100] loss: 0.525
+[174,   150] loss: 0.537
+[174,   200] loss: 0.556
+[174,   250] loss: 0.575
+Final Summary:   loss: 0.548
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 74 %
+Test Accuracy of the network: 74 %
+[175,    50] loss: 0.550
+[175,   100] loss: 0.549
+[175,   150] loss: 0.547
+[175,   200] loss: 0.551
+[175,   250] loss: 0.544
+Final Summary:   loss: 0.551
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 74 %
+[176,    50] loss: 0.540
+[176,   100] loss: 0.555
+[176,   150] loss: 0.547
+[176,   200] loss: 0.549
+[176,   250] loss: 0.546
+Final Summary:   loss: 0.550
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 76 %
+[177,    50] loss: 0.552
+[177,   100] loss: 0.536
+[177,   150] loss: 0.547
+[177,   200] loss: 0.558
+[177,   250] loss: 0.561
+Final Summary:   loss: 0.552
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 74 %
+Test Accuracy of the network: 76 %
+[178,    50] loss: 0.531
+[178,   100] loss: 0.546
+[178,   150] loss: 0.544
+[178,   200] loss: 0.553
+[178,   250] loss: 0.542
+Final Summary:   loss: 0.545
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+[179,    50] loss: 0.522
+[179,   100] loss: 0.535
+[179,   150] loss: 0.536
+[179,   200] loss: 0.541
+[179,   250] loss: 0.554
+Final Summary:   loss: 0.540
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+[180,    50] loss: 0.554
+[180,   100] loss: 0.530
+[180,   150] loss: 0.563
+[180,   200] loss: 0.516
+[180,   250] loss: 0.541
+Final Summary:   loss: 0.543
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 74 %
+[181,    50] loss: 0.549
+[181,   100] loss: 0.537
+[181,   150] loss: 0.563
+[181,   200] loss: 0.537
+[181,   250] loss: 0.560
+Final Summary:   loss: 0.551
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 74 %
+Test Accuracy of the network: 75 %
+[182,    50] loss: 0.546
+[182,   100] loss: 0.557
+[182,   150] loss: 0.535
+[182,   200] loss: 0.521
+[182,   250] loss: 0.556
+Final Summary:   loss: 0.546
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 74 %
+Test Accuracy of the network: 75 %
+[183,    50] loss: 0.523
+[183,   100] loss: 0.566
+[183,   150] loss: 0.526
+[183,   200] loss: 0.533
+[183,   250] loss: 0.537
+Final Summary:   loss: 0.539
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 75 %
+[184,    50] loss: 0.529
+[184,   100] loss: 0.540
+[184,   150] loss: 0.541
+[184,   200] loss: 0.551
+[184,   250] loss: 0.550
+Final Summary:   loss: 0.544
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 75 %
+Test Accuracy of the network: 76 %
+[185,    50] loss: 0.544
+[185,   100] loss: 0.523
+[185,   150] loss: 0.567
+[185,   200] loss: 0.544
+[185,   250] loss: 0.550
+Final Summary:   loss: 0.548
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 75 %
+[186,    50] loss: 0.546
+[186,   100] loss: 0.556
+[186,   150] loss: 0.518
+[186,   200] loss: 0.546
+[186,   250] loss: 0.537
+Final Summary:   loss: 0.543
+Train Accuracy of the network: 76 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 76 %
+[187,    50] loss: 0.553
+[187,   100] loss: 0.552
+[187,   150] loss: 0.550
+[187,   200] loss: 0.557
+[187,   250] loss: 0.539
+Final Summary:   loss: 0.553
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 76 %
+[188,    50] loss: 0.543
+[188,   100] loss: 0.534
+[188,   150] loss: 0.549
+[188,   200] loss: 0.545
+[188,   250] loss: 0.542
+Final Summary:   loss: 0.545
+Train Accuracy of the network: 78 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 76 %
+[189,    50] loss: 0.541
+[189,   100] loss: 0.521
+[189,   150] loss: 0.550
+[189,   200] loss: 0.546
+[189,   250] loss: 0.538
+Final Summary:   loss: 0.541
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 74 %
+Test Accuracy of the network: 75 %
+[190,    50] loss: 0.553
+[190,   100] loss: 0.541
+[190,   150] loss: 0.542
+[190,   200] loss: 0.535
+[190,   250] loss: 0.543
+Final Summary:   loss: 0.544
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 74 %
+Test Accuracy of the network: 75 %
+[191,    50] loss: 0.524
+[191,   100] loss: 0.540
+[191,   150] loss: 0.560
+[191,   200] loss: 0.553
+[191,   250] loss: 0.538
+Final Summary:   loss: 0.544
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 72 %
+Test Accuracy of the network: 75 %
+[192,    50] loss: 0.526
+[192,   100] loss: 0.541
+[192,   150] loss: 0.541
+[192,   200] loss: 0.543
+[192,   250] loss: 0.515
+Final Summary:   loss: 0.534
+Train Accuracy of the network: 78 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 77 %
+[193,    50] loss: 0.544
+[193,   100] loss: 0.525
+[193,   150] loss: 0.545
+[193,   200] loss: 0.551
+[193,   250] loss: 0.556
+Final Summary:   loss: 0.547
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 74 %
+[194,    50] loss: 0.532
+[194,   100] loss: 0.541
+[194,   150] loss: 0.550
+[194,   200] loss: 0.547
+[194,   250] loss: 0.538
+Final Summary:   loss: 0.544
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+[195,    50] loss: 0.567
+[195,   100] loss: 0.523
+[195,   150] loss: 0.555
+[195,   200] loss: 0.535
+[195,   250] loss: 0.534
+Final Summary:   loss: 0.545
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+[196,    50] loss: 0.531
+[196,   100] loss: 0.527
+[196,   150] loss: 0.539
+[196,   200] loss: 0.555
+[196,   250] loss: 0.573
+Final Summary:   loss: 0.547
+Train Accuracy of the network: 78 %
+Val Accuracy of the network: 74 %
+Test Accuracy of the network: 75 %
+[197,    50] loss: 0.534
+[197,   100] loss: 0.561
+[197,   150] loss: 0.520
+[197,   200] loss: 0.536
+[197,   250] loss: 0.534
+Final Summary:   loss: 0.539
+Train Accuracy of the network: 78 %
+Val Accuracy of the network: 74 %
+Test Accuracy of the network: 76 %
+[198,    50] loss: 0.518
+[198,   100] loss: 0.539
+[198,   150] loss: 0.523
+[198,   200] loss: 0.547
+[198,   250] loss: 0.545
+Final Summary:   loss: 0.537
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+[199,    50] loss: 0.525
+[199,   100] loss: 0.534
+[199,   150] loss: 0.536
+[199,   200] loss: 0.542
+[199,   250] loss: 0.545
+Final Summary:   loss: 0.539
+Train Accuracy of the network: 78 %
+Val Accuracy of the network: 74 %
+Test Accuracy of the network: 75 %
+[200,    50] loss: 0.523
+[200,   100] loss: 0.558
+[200,   150] loss: 0.531
+[200,   200] loss: 0.544
+[200,   250] loss: 0.554
+Final Summary:   loss: 0.544
+Train Accuracy of the network: 77 %
+Val Accuracy of the network: 73 %
+Test Accuracy of the network: 75 %
+
+Process finished with exit code 0

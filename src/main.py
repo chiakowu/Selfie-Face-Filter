@@ -19,11 +19,12 @@ def train(model, data_loader, optimizer, criterion, epoch):
 
         running_loss += loss.item()
         total_loss += loss.item()
-        if (i + 1) % 200 == 0:
-            print('[%d, %5d] loss: %.3f' % (epoch + 1, i + 1, running_loss / 200))
+        if (i + 1) % 50 == 0:
+            print('[%d, %5d] loss: %.3f' % (epoch + 1, i + 1, running_loss / 50))
             running_loss = 0.0
+
     avg_total_loss = total_loss / i
-    print('Final Summary:   loss: %.3f' % (avg_total_loss))
+    print('Final Summary:   loss: %.3f' % avg_total_loss)
     return avg_total_loss
 
 
@@ -75,7 +76,7 @@ def save_best_model(epochs, model, optimizer, loss, training_accuracy, val_accur
 
 
 def main():
-    batch_size = 16
+    batch_size = 64
     test_batch_size = 4
     epochs = 200
     learning_rate = 0.01
@@ -99,6 +100,7 @@ def main():
     for epoch in range(epochs):
         conv_net.adjust_learning_rate(optimizer, epoch, learning_rate)
         loss = train(conv_net, train_loader, optimizer, criterion, epoch)
+
         train_accuracy = test(conv_net, train_loader, 'Train')
         val_accuracy = test(conv_net, val_loader, 'Val')
         test_accuracy = test(conv_net, test_loader, 'Test')
