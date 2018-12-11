@@ -16,35 +16,15 @@ class csvDataset(torch.utils.data.Dataset):
                     label = int(row[0])
                     if label == 0:
                         pixel = np.asarray(list(map(int, row[1].split()))).reshape(48, 48, -1)
-                        self.data.append([label, pixel])
+                        self.data.append([2, pixel])
                     elif label == 3:
                         pixel = np.asarray(list(map(int, row[1].split()))).reshape(48, 48, -1)
                         self.data.append([1, pixel])
-                    elif label == 4:
-                        pixel = np.asarray(list(map(int, row[1].split()))).reshape(48, 48, -1)
-                        self.data.append([2, pixel])
                     elif label == 6:
                         pixel = np.asarray(list(map(int, row[1].split()))).reshape(48, 48, -1)
-                        self.data.append([3, pixel])
+                        self.data.append([0, pixel])
 
             self.transform = transform
-
-    # def __init__(self, data_file, data_type, transform=None):
-    #     with open(data_file) as f:
-    #         csv_reader = csv.reader(f, delimiter=',')
-    #         self.data = []
-    #
-    #         for row in csv_reader:
-    #             if row[-1] == data_type:
-    #                 label = int(row[0])
-    #                 if label == 0:
-    #                     pixel = np.asarray(list(map(int, row[1].split()))).reshape(48, 48, -1)
-    #                     self.data.append([label, pixel])
-    #                 if label == 3 or label == 4 or label == 5 or label == 6:
-    #                     pixel = np.asarray(list(map(int, row[1].split()))).reshape(48, 48, -1)
-    #                     self.data.append([label-2, pixel])
-    #
-    #         self.transform = transform
 
     def __len__(self):
         return len(self.data)

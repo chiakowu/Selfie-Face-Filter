@@ -22,43 +22,42 @@ def main():
         flags=cv.CASCADE_SCALE_IMAGE)
 
         for (x, y, w, h) in faces:
+            start_y = y-int(h*0.25)
+            cv.rectangle(frame, (x, start_y), (x+w, y+h), (0, 255, 0), 2)
             frame = cv.cvtColor(frame, cv.COLOR_BGR2BGRA)
 
-
-            y1, y2 = y-int(h*.2), y + h
-
-            cv.rectangle(frame, (x, y1), (x+w, y2), (0,255,0), 2)
-
-
-            face = frame[y1:y2,x:x+w]
-            # face = frame[y-int(h*.2):y+h+int(h*.2),x:x+w]
+            face = frame[start_y:y+h, x:x+w]
+            print(face)
+            print(len(face))
+            if len(face) == 0:
+                continue
             face = cv.cvtColor(face, cv.COLOR_BGR2GRAY)
 
-            face = cv.resize(face, (48,48)).reshape((1,1,48,48))
+            face = cv.resize(face, (48, 48)).reshape((1, 1, 48, 48))
             input = torch.FloatTensor(face)
             output = conv_net(input)
             _, predicted = torch.max(output.data, 1)
             # print(predicted.data[0])
-            
+
             if predicted.data[0] == 2:
                 s_img = cv.imread("kitten.png", -1)
                 print("Neutral")
             elif predicted.data[0] == 0:
-                s_img = cv.imread("angry.png", -1)
-                print("Angry, Disgust, Fear")
+                s_img = cv.imread("thug_life_with_weed.png", -1)
+                print("Angry")
             elif predicted.data[0] == 1:
-                s_img = cv.imread("happy.png", -1)
+                s_img = cv.imread("shiba.png", -1)
                 print("Happy")
 
-
-
-            resizedFilter = cv.resize(s_img, (w,h+int(h*0.2)), fx=0.5, fy=0.5)
+            resizedFilter = cv.resize(s_img, (w, h), fx=0.5, fy=0.5)
             w2,h2,c2 = resizedFilter.shape
             for i in range(0,w2):
                 for j in range(0,h2):
                     if resizedFilter[i,j][3] != 0:
-                        frame[y1+i, x+j] = resizedFilter[i,j]
-
+                        if predicted.data[0] == 0:
+                            frame[y+i, x+j] = resizedFilter[i, j]
+                        else:
+                            frame[start_y+i, x+j] = resizedFilter[i, j]
 
         cv.imshow('Video', frame)
 

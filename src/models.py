@@ -4,7 +4,6 @@ import torch.optim as optim
 
 
 class ConvNet(nn.Module):
-    # best now is 3 class 4 layers
     def __init__(self):
         super(ConvNet, self).__init__()
         self.conv1 = nn.Conv2d(1, 6, 7, padding=5)
@@ -26,37 +25,6 @@ class ConvNet(nn.Module):
         x = F.relu(self.fc2(x))
         x = self.fc3(x)
         return x
-
-    # def __init__(self):
-    #     super(ConvNet, self).__init__()
-    #     self.conv1 = nn.Conv2d(1, 6, kernel_size=7, padding=5)
-    #     self.conv2 = nn.Conv2d(6, 6, kernel_size=5, padding=3)
-    #     self.conv3 = nn.Conv2d(6, 12, kernel_size=5, padding=3)
-    #     self.conv3_bn = nn.BatchNorm2d(12)
-    #     self.conv4 = nn.Conv2d(12, 12, kernel_size=3, padding=1)
-    #     self.conv5 = nn.Conv2d(12, 16, kernel_size=3, padding=1)
-    #     self.conv5_bn = nn.BatchNorm2d(16)
-    #     self.conv6 = nn.Conv2d(16, 16, kernel_size=3, padding=1)
-    #     self.conv7 = nn.Conv2d(16, 24, 3)
-    #     self.conv7_bn = nn.BatchNorm2d(24)
-    #     self.max_pool = nn.MaxPool2d(2)
-    #     self.fc1 = nn.Linear(32, 3)
-    #     # self.fc2 = nn.Linear(96, 7)
-    #     #pycharm four, terminal 3
-    # def forward(self, x):
-    #     x = self.max_pool(F.relu(self.conv1(x)))
-    #     x = self.max_pool(F.relu(self.conv2(x)))
-    #     x = self.max_pool(F.relu(self.conv3_bn(self.conv3(x))))
-    #     x = self.max_pool(F.relu(self.conv4(x)))
-    #     x = self.max_pool(F.relu(self.conv5_bn(self.conv5(x))))
-    #     x = self.max_pool(F.relu(self.conv6(x)))
-    #     x = self.max_pool(F.relu(self.conv7_bn(self.conv7(x))))
-    #     x = x.view(-1, 32)
-    #     x = self.fc1(x)
-    #     # x = self.fc2(x)
-    #     return x
-    # PyCharm emotion net
-    # terminal 5 layers
 
     def criterion(self):
         return nn.CrossEntropyLoss()
