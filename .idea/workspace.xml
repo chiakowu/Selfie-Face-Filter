@@ -2,49 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b603de1-fd4a-4646-9308-2550d8130f3e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/she.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/cat_filter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/frontalEyes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/haarcascade_profileface.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CoolNet_training_result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/angry.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/best_now_three_class.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cat.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crazy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dalmata.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dogFace.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dogFilter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/face_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/face_detector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/four_class_multiple.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/four_class_result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/happy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hulk.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hulk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kitten.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/kitten.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/laughing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/online_code_result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rosa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saved_model/2018-12-08_15:03:26.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saved_model/2018-12-08_15:44:07.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saved_model/2018-12-08_17:14:44.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saved_model/2018-12-08_22:09:59.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saved_model/2018-12-09_00:54:42.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saved_model/2018-12-09_01:06:43.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saved_model/2018-12-09_01:21:21.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saved_model/2018-12-09_01:29:20.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saved_model/2018-12-09_12:21:34.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saved_model/2018-12-09_12:30:07.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saved_model/2018-12-09_15:55:11.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saved_model/2018-12-09_16:10:34.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/saved_model/2018-12-10_02:30:06.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shiba.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/shiba.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sunglasses.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/three_class_result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thug_life.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/thug_life.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thug_life_with_weed.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/thug_life_with_weed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/she.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/thug_life_with_weed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/haarcascade_frontalface_default2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/she.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/face_detector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/saved_model/2018-12-10_02:40:10.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/saved_model/2018-12-10_14:25:04.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/saved_model/2018-12-10_15:39:14.pt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/webcam_face_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/webcam_face_detector.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,23 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="face_detector.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/face_detector.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="webcam_face_detector.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/webcam_face_detector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="225">
+              <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -757,8 +710,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/webcam_face_detector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="225">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>

@@ -6,7 +6,7 @@ def main():
     face_classifier = cv.CascadeClassifier('../data/haarcascade_frontalface_default.xml')
     capture = cv.VideoCapture(0)
     s_img = cv.imread("../assets/kitten.png", -1)
-    pretrained = torch.load("saved_model/2018-12-10_12:26:18.pt")
+    pretrained = torch.load("saved_model/best_model.pt")
     conv_net = models.ConvNet()
     conv_net.load_state_dict(pretrained['model_state_dict'])
 
