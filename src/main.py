@@ -43,24 +43,6 @@ def test(model, data_loader, tag=''):
     print('%s Accuracy of the network: %d %%' % (tag, 100 * correct / total))
     return test_accuracy
 
-    # class_correct = list(0. for i in range(7))
-    # class_total = list(0. for i in range(7))
-    # with torch.no_grad():
-    #     for data in data_loader:
-    #         images, labels = data
-    #         outputs = model(images)
-    #         labels = labels.view(-1)
-    #         _, predicted = torch.max(outputs, 1)
-    #         c = (predicted == labels).squeeze()
-    #         for i in range(len(labels)):
-    #             label = labels[i]
-    #             class_correct[label] += c[i].item()
-    #             class_total[label] += 1
-
-    # for i in range(7):
-    #     print('%s Accuracy of %5s : %2d %%' % (
-    #         tag, data_loader.classes[i], 100 * class_correct[i] / class_total[i]))
-
 
 def save_best_model(epochs, model, optimizer, loss, training_accuracy, val_accuracy, test_accuracy, file_path):
     torch.save({

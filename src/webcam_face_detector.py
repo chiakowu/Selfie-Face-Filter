@@ -1,4 +1,3 @@
-import numpy as np
 import cv2 as cv
 import torch
 import models
@@ -6,7 +5,7 @@ import models
 def main():
     face_classifier = cv.CascadeClassifier('../data/haarcascade_frontalface_default.xml')
     capture = cv.VideoCapture(0)
-    s_img = cv.imread("dalmata.png", -1)
+    s_img = cv.imread("../assets/kitten.png", -1)
     pretrained = torch.load("saved_model/2018-12-10_12:26:18.pt")
     conv_net = models.ConvNet()
     conv_net.load_state_dict(pretrained['model_state_dict'])
@@ -23,7 +22,7 @@ def main():
 
         for (x, y, w, h) in faces:
             start_y = y-int(h*0.25)
-            cv.rectangle(frame, (x, start_y), (x+w, y+h), (0, 255, 0), 2)
+            # cv.rectangle(frame, (x, start_y), (x+w, y+h), (0, 255, 0), 2)
             frame = cv.cvtColor(frame, cv.COLOR_BGR2BGRA)
 
             face = frame[start_y:y+h, x:x+w]
@@ -37,16 +36,15 @@ def main():
             input = torch.FloatTensor(face)
             output = conv_net(input)
             _, predicted = torch.max(output.data, 1)
-            # print(predicted.data[0])
 
             if predicted.data[0] == 2:
-                s_img = cv.imread("kitten.png", -1)
+                s_img = cv.imread("../assets/kitten.png", -1)
                 print("Neutral")
             elif predicted.data[0] == 0:
-                s_img = cv.imread("thug_life_with_weed.png", -1)
+                s_img = cv.imread("../assets/thug_life.png", -1)
                 print("Angry")
             elif predicted.data[0] == 1:
-                s_img = cv.imread("shiba.png", -1)
+                s_img = cv.imread("../assets/shiba.png", -1)
                 print("Happy")
 
             resizedFilter = cv.resize(s_img, (w, h), fx=0.5, fy=0.5)
@@ -66,6 +64,7 @@ def main():
 
     capture.release()
     cv.destroyAllWindows()
+
 
 if __name__ == '__main__':
     main()
